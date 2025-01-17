@@ -7,6 +7,49 @@
 </head>
 
 <body>
+	<div class='container'>
+		<form method="post" class='form'>
+			<label for="name">Name:
+				<input type="text" required="required" id="name" placeholder="Name" />
+			</label> <br>
+			<label for="email">Email:
+			<input type='email' required id="email" placeholder="Email" />
+			</label> <br>
+			<label for='Gender'>Gender:
+			<input type='radio' required id='gender_m' /> 
+				<label for="male">Male</label>
+			<input type='radio' required id='gender_f' />
+				<label for='female'>Female</label>
+			</label> <br>
+			<label for='cars'>Car Brands
+			<select id='cars' name='cars' required>
+				<option value='' disabled selected>--Please choose an option--</option>
+				 <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+			</select>
+				<br>
+			</label> <br>
+			<label for='age'>Age:
+			<input type='number' required id='age' placeholder='Age' />
+			</label> <br>
+			<label for='dob' >DOB
+			<input type="date" required id='dob' />
+			</label> <br>
+			<label for='tel'>Phone Number
+			<input type="tel" id='tel' placeholder='xxx-xxx-xxxx' />
+			</label> <br>
+			<label for='password'>Password
+			<input type='password' required id='password' placeholder='Password' />
+			</label> <br>
+			<label for='tos'>I agree to the TOS
+			<input type="checkbox" required id='tos' />
+			</label> <br>
+			<input type="submit" value="Submit" />
+		</form>
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
